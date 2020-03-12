@@ -1,0 +1,38 @@
+/* --------------------------------------------------------------------------*
+ * Filename: d:\Project\fe-oj\packages\common\tsconfig.json                  *
+ * Path: d:\Project\fe-oj\packages\common                                    *
+ * Created Date: Friday, December 20th 2019, 10:13:40 pm                     *
+ * Author: yidafu(dov-yih)                                                   *
+ *                                                                           *
+ * Copyright (c) 2019 None                                                   *
+ *-------------------------------------------------------------------------- */
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    // https://github.com/facebook/jest/issues/8218#issuecomment-486464992
+    "moduleResolution": "node",
+    "target": "es2015",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "lib": [
+      "es2019",
+      "dom"
+    ]
+  },
+  "include": [
+    "logger/**/*.ts",
+    "polyfill/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts"
+  ]
+}

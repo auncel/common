@@ -1,0 +1,37 @@
+{
+  "name": "@auncel/common",
+  "version": "0.0.1",
+  "description": "shared",
+  "author": "yidafu <yidafu90@qq.com>",
+  "homepage": "https://github.com/yidafu/fe-oj#readme",
+  "license": "MIT",
+  "files": [
+    "polyfill/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yidafu/fe-oj.git"
+  },
+  "scripts": {
+    "tsc": "tsc --build tsconfig.json",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/yidafu/fe-oj/issues"
+  },
+  "dependencies": {
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-typescript": "^7.7.2",
+    "@types/jest": "^24.0.23",
+    "@types/node": "13",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.5"
+  }
+}

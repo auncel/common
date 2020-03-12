@@ -1,0 +1,16 @@
+@media /* comment */ print {
+  body /* comment */ {
+    font-size: 10pt;
+  }/* comment */
+}
+/* comment */
+.klass:first,/* comment */ div {
+  background-color:url('//style.css') #fff;
+  width: 550px
+}
+/* comment */
+div /* comment */ {
+  background-color: /* comment */ url('//style.css') /* comment */ #fff;
+ /* comment */ width: /* comment */550px;
+  /* comment */
+}
