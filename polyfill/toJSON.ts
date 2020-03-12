@@ -10,14 +10,17 @@
  * Copyright 2019 - 2019 Mozilla Public License 2.0                          *
  *-------------------------------------------------------------------------- */
 import { IPlainObject } from '../types/IPlainObject';
-// eslint-disable-next-line @typescript-eslint/interface-name-prefix
-interface Map<K, V> {
-  toJSON(): IPlainObject<V>;
-}
 
-// eslint-disable-next-line @typescript-eslint/interface-name-prefix
-interface Object {
-  toJSON: () => void;
+declare global {
+  // eslint-disable-next-line @typescript-eslint/interface-name-prefix
+  interface Map<K, V> {
+    toJSON(): IPlainObject<V>;
+  }
+  
+  // eslint-disable-next-line @typescript-eslint/interface-name-prefix
+  interface Object {
+    toJSON: () => void;
+  }
 }
 
 // eslint-disable-next-line no-extend-native
