@@ -18,8 +18,8 @@
     "moduleResolution": "node",
     "target": "es2015",
     "sourceMap": true,
-    "outDir": "./dist",
-    "baseUrl": "./",
+    "outDir": ".",
+    "baseUrl": ".",
     "incremental": true,
     "lib": [
       "es2019",

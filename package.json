@@ -13,7 +13,9 @@
     "url": "git+https://github.com/yidafu/fe-oj.git"
   },
   "scripts": {
-    "tsc": "tsc --build tsconfig.json",
+    "prepublishOnly": "yarn clean && yarn build",
+    "build": "tsc --build tsconfig.json",
+    "clean": "rm **/*.js & rm **/*.js.map & rm **/*.d.ts & rm tsconfig.tsbuildinfo",
     "test": "jest"
   },
   "bugs": {
