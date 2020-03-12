@@ -6,7 +6,8 @@
   "homepage": "https://github.com/yidafu/fe-oj#readme",
   "license": "MIT",
   "files": [
-    "polyfill/"
+    "polyfill/",
+    "types/"
   ],
   "repository": {
     "type": "git",

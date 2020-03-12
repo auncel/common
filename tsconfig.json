@@ -29,10 +29,10 @@
   "include": [
     "logger/**/*.ts",
     "polyfill/**/*.ts",
+    "types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
-    "dist",
     "**/*.spec.ts"
   ]
 }

@@ -9,9 +9,7 @@
  *                                                                           *
  * Copyright 2019 - 2019 Mozilla Public License 2.0                          *
  *-------------------------------------------------------------------------- */
-interface IPlainObject<V> {
-  [key: string]: V;
-}
+import { IPlainObject } from '../types/IPlainObject';
 // eslint-disable-next-line @typescript-eslint/interface-name-prefix
 interface Map<K, V> {
   toJSON(): IPlainObject<V>;
